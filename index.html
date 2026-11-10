@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>GameLive — Đại Chiến Lãnh Thổ</title>
+<meta name="theme-color" content="#0b0620">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage">
+  <canvas id="cv"></canvas>
+
+  <div id="hud">
+    <div id="bar"></div>
+    <div id="tw"><div id="timer">0:00</div><div id="phase"></div></div>
+    <div id="chips"></div>
+    <div id="donors"></div>
+  </div>
+
+  <div id="demo">DEMO</div>
+  <div id="conn" class="st-off"></div>
+  <div id="feed"></div>
+  <div id="banners"></div>
+  <div id="lobbyBox"></div>
+  <div id="flashMsg"></div>
+  <div id="count"></div>
+  <div id="guide"></div>
+  <div id="result"></div>
+  <div id="zones"></div>
+</div>
+
+<button id="gear" title="Cài đặt (M)">⚙️</button>
+<button id="gate">🔊 Bấm vào đây để bật âm thanh</button>
+<div id="menu"></div>
+
+<script src="config.js"></script>
+<script src="audio.js"></script>
+<script src="maps.js"></script>
+<script src="game.js"></script>
+<script src="render.js"></script>
+<script src="live.js"></script>
+<script src="ui.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
